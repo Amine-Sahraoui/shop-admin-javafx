@@ -1,0 +1,19 @@
+tasks:
+  - init: mvn install -DskipTests=false
+image:
+  file: .gitpod.Dockerfile
+vscode:
+  extensions:
+    - vscjava.vscode-java-debug@0.21.0:2xtBRE0lp5AV4/J7Ptda+g==
+    - vscjava.vscode-java-dependency@0.8.0:Y/uH9UzxkAktaBU+9UB79w==
+    - vscjava.vscode-maven@0.20.0:lS3qOo0j5kVdjmDcd9ZClg==
+    - redhat.java@0.48.0:EYoPv4qnT0DNzzvQHYmZow==
+    - georgewfraser.vscode-javac@0.2.31:GrcW1x6hBWcZI6vQqD0Llg==
+    - christian-kohler.path-intellisense@1.4.2:QnOrf5fk6KiVaQs4cNEP+w==
+    - eamodio.gitlens@9.9.3:4g0pgzmxBH0HkAs5mY8BWQ==
+    - PKief.material-icon-theme@3.9.2:xeHlNzPEF04yFqz/xKCD5w==
+    - tomoki1207.pdf@0.5.1:hWRM9CIZvyTMEoCvvWtSCw==
+    - donjayamanne.githistory@0.4.13:BULO61FQv6Ie/05ZHCYakQ==
+    - auchenberg.vscode-browser-preview@0.5.9:GSR66hvnECuPC/oFlGKa1g==
+    - vscodevim.vim@1.12.2:GXklOQzdRDyPjCpHWO5pnw==
+    - ritwickdey.LiveServer@5.6.1:wV4LBkq6Z5s1xwf2HrB+cw==
